@@ -63,15 +63,23 @@
 
 //console.log(lapsCompleted)
 
-let countEl = document.getElementById("count-el")
 
+let countEl= document.getElementById ("count-el") // pass in arguments
 console.log(countEl)
 
-let count = 0
+let count=0
+console.log(count)
 
-function increment (){
+function increment () {
     //console.log("clicked")
-    count = count + 1
+    count= count + 1
     countEl.innerText = count
+    console.log(count)
+}
+
+// Create a function, save (), which logs out the count when it's called
+
+
+function save() {
     console.log(count)
 }
